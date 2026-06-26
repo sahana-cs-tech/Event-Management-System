@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Events</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+{% include 'navbar.html' %}
+
+<h1>My Registered Events</h1>
+
+{% for event in events %}
+
+<div class="event-card">
+
+    <h3>{{ event[1] }}</h3>
+
+    <a href="/feedback/{{ event[0] }}">
+        Give Feedback
+    </a>
+
+</div>
+
+{% endfor %}
+
+<br>
+
+<a href="/dashboard">
+Back to Dashboard
+</a>
+
+</body>
+</html>
