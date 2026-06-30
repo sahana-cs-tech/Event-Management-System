@@ -1,14 +1,14 @@
-# 🎉 Event Management System
+#  Event Management System
 
 A full-stack Event Management System built using Flask and MySQL that allows users to browse, register for events, and submit feedback, while administrators can manage events, registrations, and reports through a dedicated dashboard.
 
-## 🌐 Live Demo
+##  Live Demo
 
 **Live Website:** https://event-management-system-sfs8.onrender.com
 
-## 📌 Features
+##  Features
 
-### 👤 User
+###  User
 - User registration and login
 - Browse available events
 - Search and filter events
@@ -16,7 +16,7 @@ A full-stack Event Management System built using Flask and MySQL that allows use
 - View registered events
 - Submit feedback
 
-### 🛠️ Admin
+###  Admin
 - Secure admin login
 - Add, edit, and delete events
 - Upload event images
@@ -24,7 +24,7 @@ A full-stack Event Management System built using Flask and MySQL that allows use
 - Generate reports
 - Manage user feedback
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 ### Backend
 - Python
@@ -45,7 +45,7 @@ A full-stack Event Management System built using Flask and MySQL that allows use
 - Render
 - GitHub
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 Event-Management-System
@@ -62,7 +62,7 @@ Event-Management-System
 └── Database
 ```
 
-## 🚀 Installation
+##  Installation
 
 Clone the repository:
 
@@ -88,7 +88,7 @@ Run the application:
 python app.py
 ```
 
-## 📸 Screenshots
+##  Screenshots
 
 ### Home Page
 
@@ -106,7 +106,7 @@ python app.py
 
 ![Admin](screenshots/admin_dashboard.png)
 
-## 🔮 Future Improvements
+##  Future Improvements
 
 - Email notifications
 - Online payment integration
@@ -114,7 +114,7 @@ python app.py
 - Certificate generation
 - Event analytics dashboard
 
-## 👩‍💻 Developer
+##  Developer
 
 **Sahana C S**
 
